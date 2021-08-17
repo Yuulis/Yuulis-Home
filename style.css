@@ -44,7 +44,7 @@ header div.pageTitle img.titleIcon {
 
 div.main {
     width: 100%;
-    padding: 10px;
+    margin: 0 auto;
     background-color: #192f60;
     color: #ffffff;
 }
