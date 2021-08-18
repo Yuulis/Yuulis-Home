@@ -20,54 +20,59 @@
 
 <body>
     <div class="pagebody">
+        <div class="container">
 
-        <!-- =====Header===== -->
-        <header>
-            <div class="pageTitle">
-                <p class="frameLeft"><img width="2.5%" class="titleIcon" src="img/program_command_icon.jpg">Yuulis Home
+            <!-- =====Header===== -->
+            <header>
+                <div class="pageTitle">
+                    <p class="frameLeft"><img width="2.5%" class="titleIcon" src="img/program_command_icon.jpg">Yuulis
+                        Home
+                    </p>
+                    <p class="typedText">>>><span id="ityped"></span></p>
+                </div>
+            </header>
+
+            <!-- =====Main Contents===== -->
+            <div class="main">
+                <div class="profilePage">
+                    <h1 class="profile">Profile</h1>
+                    <p><img src="img/Yuulis_icon.png" alt="My icon"></p>
+                    <p>Japanese high schooler / Studying RL in ML-Agents / Unity / C++ / C#</p>
+                    <p>Unityで機械学習の一つ、強化学習をして遊んでいる高校生です。プログラミングを本格的に始めたのは2年前で、まだまだ精進中...</p>
+                    <p>Scratch / AtCoder などもやってます。</p>
+                </div>
+
+                <div class="worksPage">
+                    <h1 class="works">Works</h1>
+                    <p>これまでの作品のピックアップです。>>><a href="">作品一覧</a></p>
+                    <h2>Scratch</h2>
+                    <p><img class="workImg" src="img/works/digitalClock.png" alt="デジタル時計"></p>
+                </div>
+
+            </div>
+
+            <!-- =====Footer===== -->
+            <footer>
+                <p>
+                    <a href="https://twitter.com/home" target="_blank" rel="noopener noreferrer"><img class="linkIcon"
+                            src="img/twitter_icon.png" alt="My Twitter: @Yuulis04"></a>
+                    <a href="https://github.com/Yuulis" target="_blank" rel="noopener noreferrer"><img class="linkIcon"
+                            src="img/github_icon.png" alt="My Github: Yuulis"></a>
+                    <a href="https://scratch.mit.edu/users/Yuulis/" target="_blank" rel="noopener noreferrer"><img
+                            class="linkIcon" src="img/scratch_icon.png" alt="My Scratch: Yuulis"></a>
+                    <a href="https://linktr.ee/Yuulis04" target="_blank" rel="noopener noreferrer"><img class="linkIcon"
+                            src="img/linktree_icon.png" alt="For more links..."></a>
                 </p>
-                <p class="typedText">>>><span id="ityped"></span></p>
-            </div>
-        </header>
-
-        <!-- =====Main Contents===== -->
-        <div class="main">
-            <div class="profilePage">
-                <h1 class="profile">Profile</h1>
-                <p><img src="img/Yuulis_icon.png" alt="My icon"></p>
-                <p>Japanese high schooler / Studying RL in ML-Agents / Unity / C++ / C#</p>
-                <p>Unity上で機械学習の一部の強化学習をして遊んでいる高校生です。プログラミングを本格的に始めたのは2年前で、まだまだ精進が足りないです...</p>
-                <p>Scratch / AtCoder などもやってます。</p>
-            </div>
-
-            <div class="worksPage">
-                <h1 class="works">Works</h1>
-                <h3>Scratch</h3>
-                <p>More works is here...</p>
-            </div>
-
+                <p><small>2021 ©Yuulis All Rights Reserved.</small></p>
+            </footer>
         </div>
 
-        <!-- =====Footer===== -->
-        <footer>
-            <p>
-                <a href="https://twitter.com/home" target="_blank" rel="noopener noreferrer"><img class="linkIcon"
-                        src="img/twitter_icon.png" alt="My Twitter: @Yuulis04"></a>
-                <a href="https://github.com/Yuulis" target="_blank" rel="noopener noreferrer"><img class="linkIcon"
-                        src="img/github_icon.png" alt="My Github: Yuulis"></a>
-                <a href="https://scratch.mit.edu/users/Yuulis/" target="_blank" rel="noopener noreferrer"><img class="linkIcon"
-                        src="img/scratch_icon.png" alt="My Scratch: Yuulis"></a>
-                <a href="https://linktr.ee/Yuulis04" target="_blank" rel="noopener noreferrer"><img class="linkIcon"
-                        src="img/linktree_icon.png" alt="For more links..."></a>
-            </p>
-            <p><small>2021 ©Yuulis All Rights Reserved.</small></p>
-        </footer>
+        <canvas class="background"></canvas>
 
     </div>
 
-    <canvas class="background"></canvas>
-    <script src="js/pageback.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+    <script src="js/pageback.js"></script>
 
     <script src="js/typedText.js"></script>
 </body>
