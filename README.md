@@ -1,2 +1,2 @@
 # Yuulis-Home
-Here is my web page (preparing now...)
+Here is my site (preparing now...)
