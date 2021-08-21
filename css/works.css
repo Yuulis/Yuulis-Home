@@ -1,0 +1,24 @@
+div.main h1 {
+  font-size: 40px;
+  margin-bottom: 5px;
+  border-bottom: #dedede solid;
+}
+
+div.main div.project iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+div.main div.description {
+  width: 45%;
+  padding: 10px;
+  margin: 10px auto;
+  border: #dedede solid;
+  border-width: 2px;
+  border-radius: 0.5em;
+}
+
+div.main div.description p.sLink {
+    margin-top: 10px;
+    text-align: center;
+}
