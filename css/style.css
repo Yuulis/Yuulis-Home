@@ -26,12 +26,18 @@ div.container h1 {
 
 header {
   width: 100%;
-  padding: 10px 10px 15px 10px;
+  padding: 5px 10px 10px 10px;
+  background-color: #000000;
+}
+header img.pageIcon {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
 }
 header div.pageTitle {
-  width: 50%;
-  min-height: 120px;
-  margin: 0 auto;
+  width: 60%;
+  min-height: 150px;
+  margin: 5px auto;
   text-align: left;
   border: solid 1px;
   border-color: #ffffff;
@@ -44,8 +50,8 @@ header div.pageTitle p.frameLeft {
   color: #ffffff;
 }
 header div.pageTitle img.titleIcon {
+  width: 20px;
   margin: 0px 2px;
-  padding: 2px 0px;
 }
 
 div.main {
@@ -74,11 +80,6 @@ div.main div.worksPage {
 div.main div.worksPage h1 {
   margin-top: 30px;
 }
-div.main div.worksPage h2 {
-  font-family: Play, sans-serif;
-  font-size: 36px;
-  margin: 15px 0px 5px 0px;
-}
 div.main div.worksPage div.workImg {
   float: left;
   width: 50%;
@@ -91,13 +92,6 @@ div.main div.worksPage div.workDescription {
   float: left;
   width: 50%;
   text-align: center;
-}
-
-div.main div.links {
-  text-align: center;
-}
-div.main div.links h1 {
-  margin-top: 30px;
 }
 
 footer {
@@ -207,7 +201,7 @@ figure.caption:hover figcaption {
 }
 
 /* =====On PC screen===== */
-@media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 481px) {
   div.pagebody {
     margin: 0 auto;
     position: relative;
@@ -216,8 +210,22 @@ figure.caption:hover figcaption {
 
   header {
     width: 80%;
-    height: 120px;
     margin: 0 auto;
+  }
+  header img.pageIcon {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+  header div.pageTitle {
+    width: 50%;
+    min-height: 120px;
+    margin: 5px auto;
+    text-align: left;
+    border: solid 1px;
+    border-color: #ffffff;
+    background-color: #000000;
+    font-family: Source Code Pro, sans-serif;
   }
 
   div.main {
@@ -227,7 +235,6 @@ figure.caption:hover figcaption {
 
   footer {
     width: 80%;
-    height: 100px;
     margin: 0 auto;
   }
 }
