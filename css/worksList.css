@@ -1,0 +1,27 @@
+ul.content_list {
+  width: 40%;
+  background: #dadada; /*灰色に*/
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px silver;
+  margin: 5px auto;
+  padding: 0.5em 0.5em 0.5em 2em;
+}
+ul.content_list li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+  color: #000000;
+  font-family: Play, sans-serif;
+  font-size: 22px;
+}
+ul.content_list li a {
+  color: #000000;
+}
+
+h2 {
+  font-family: Play, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+p {
+  text-align: center;
+}

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="img/Yuulis_icon.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/worksList.css">
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
@@ -25,37 +26,24 @@
             <!-- =====Header===== -->
             <header>
                 <a href="index.html"><img class="pageIcon" src="img/YuulisHome_icon.png" alt="Yuulis Homeのアイコン"></a>
-
-                <div class="pageTitle">
-                    <p class="frameLeft"><img class="titleIcon" src="img/program_command_icon.jpg">Yuulis
-                        Home
-                    </p>
-                    <p class="typedText">>>><span id="index"></span></p>
-                </div>
             </header>
 
             <!-- =====Main Contents===== -->
             <div class="main">
-
-                <div class="profilePage">
-                    <h1>Profile</h1>
-                    <p><img src="img/Yuulis_icon.png" alt="My icon"></p>
-                    <p>Japanese high schooler / Studying RL in ML-Agents / Unity / C++ / C#</p>
-                    <p>Unityで機械学習の一つ、強化学習をして遊んでいる高校生です。プログラミングを本格的に始めたのは2年前で、まだまだ精進中...</p>
-                    <p>Scratch / AtCoder などもやってます。</p>
-                </div>
+                <h1>My Works</h1>
+                <ul class="content_list">
+                    <li><a href="#scratch"><u>Scratch</u></a></li>
+                    <li><a href="#rl"><u>強化学習 (Reinforcement Learning)</u></a></li>
+                    <li><a href="#others"><u>Others</u></a></li>
+                </ul>
 
                 <div class="worksPage">
-                    <h1>Works</h1>
-                    <p>これまでの作品のピックアップです。タイトルをクリックして遊べます。
-                    <p>&gt;&gt;&gt; <a href="worksList.html"><u>作品一覧</u></a> &lt;&lt;&lt;</p>
-
+                    <h2 id="scratch">Scratch</h2>
                     <figure class="caption">
                         <img src="img/works/digitalClock.png">
                         <figcaption>
                             <h2 class="capTitle"><a href="works/digitalClock.html"><u>デジタル時計</u></a></h2>
                             <p>シンプルなデジタル時計。アラーム付き</p>
-
                         </figcaption>
                     </figure>
                     <figure class="caption">
@@ -80,29 +68,35 @@
                             <p>シン・エヴァ公開記念で作ってみた。</p>
                         </figcaption>
                     </figure>
-
-                    <h4>More works are coming soon...</h4>
-
                 </div>
+
+                <h2 id="rl">強化学習 (Reinforcement Learning)</h2>
+                <p>Preparing...</p>
+
+                <h2 id="others">Others</h2>
+                <p>Preparing...</p>
+
             </div>
 
-            <!-- =====Footer===== -->
-            <footer>
-                <p>
-                    <a href="https://twitter.com/home" target="_blank" rel="noopener noreferrer"><img class="linkIcon"
-                            src="img/twitter_icon.png" alt="My Twitter: @Yuulis04"></a>
-                    <a href="https://github.com/Yuulis" target="_blank" rel="noopener noreferrer"><img class="linkIcon"
-                            src="img/github_icon.png" alt="My Github: Yuulis"></a>
-                    <a href="https://scratch.mit.edu/users/Yuulis/" target="_blank" rel="noopener noreferrer"><img
-                            class="linkIcon" src="img/scratch_icon.png" alt="My Scratch: Yuulis"></a>
-                    <a href="https://linktr.ee/Yuulis04" target="_blank" rel="noopener noreferrer"><img class="linkIcon"
-                            src="img/linktree_icon.png" alt="For more links..."></a>
-                </p>
-                <p><small>2021 &copy;Yuulis All Rights Reserved.</small></p>
-            </footer>
         </div>
 
-        <canvas class="background"></canvas>
+        <!-- =====Footer===== -->
+        <footer>
+            <p>
+                <a href="https://twitter.com/home" target="_blank" rel="noopener noreferrer"><img class="linkIcon"
+                        src="img/twitter_icon.png" alt="My Twitter: @Yuulis04"></a>
+                <a href="https://github.com/Yuulis" target="_blank" rel="noopener noreferrer"><img class="linkIcon"
+                        src="img/github_icon.png" alt="My Github: Yuulis"></a>
+                <a href="https://scratch.mit.edu/users/Yuulis/" target="_blank" rel="noopener noreferrer"><img
+                        class="linkIcon" src="img/scratch_icon.png" alt="My Scratch: Yuulis"></a>
+                <a href="https://linktr.ee/Yuulis04" target="_blank" rel="noopener noreferrer"><img class="linkIcon"
+                        src="img/linktree_icon.png" alt="For more links..."></a>
+            </p>
+            <p><small>2021 &copy;Yuulis All Rights Reserved.</small></p>
+        </footer>
+    </div>
+
+    <canvas class="background"></canvas>
 
     </div>
 
