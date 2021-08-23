@@ -5,15 +5,22 @@ div.main h1 {
   border-bottom: #dedede solid;
 }
 
+div.main div.project {
+  position: relative;
+  width: 100%;
+  padding: calc(480 / 1440 * 100%) 0 0;
+}
 div.main div.project iframe {
-  width: 60%;
-  min-width: 240px;
-  display: block;
-  margin: 5px auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 div.main div.description {
   width: 45%;
+  min-width: 30%;
   padding: 10px;
   margin: 10px auto;
   border: #dedede solid;
@@ -26,9 +33,21 @@ div.main div.description p.sLink {
   text-align: center;
 }
 
-@media only screen and (min-width: 481px) {
-  div.main div.project iframe {
-    display: block;
-    margin: 5px auto;
+/* =====On Mobile Screen===== */
+@media only screen and (max-width: 480px) {
+  div.main div.project {
+    position: relative;
+    width: 100%;
+    padding: calc(480 / 600 * 100%) 0 0;
+  }
+
+  div.main div.description {
+    width: 70%;
+    min-width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+    border: #dedede solid;
+    border-width: 2px;
+    border-radius: 0.5em;
   }
 }
