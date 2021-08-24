@@ -126,6 +126,33 @@ footer p a img {
   z-index: 0;
 }
 
+/* =====Button===== */
+.link_btn a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+  padding: 1em 2em;
+  width: 200px;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #cccccc;
+  border-radius: 50vh;
+}
+.link_btn a::after {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-top: 3px solid #333333;
+  border-right: 3px solid #333333;
+  transform: rotate(45deg);
+}
+.link_btn a:hover {
+  text-decoration: none;
+  background-color: #bbbbbb;
+}
+
 /* =====Typed Text=====*/
 div.pageTitle p.typedText {
   font-size: 30px;
