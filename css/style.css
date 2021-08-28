@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
 
 /* =====Initializing===== */
 * {
@@ -17,7 +17,8 @@ body {
   background-color: #24140e;
   text-decoration: none;
   line-height: 1.5;
-  font-family: Ubuntu, 'Noto Sans JP', 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+  font-family: Ubuntu, "Noto Sans JP", "Gill Sans", "Gill Sans MT",
+    "Trebuchet MS", sans-serif;
 }
 body a {
   text-decoration: none;
@@ -137,11 +138,12 @@ footer p a img {
   color: #333333;
   font-size: 18px;
   font-weight: 700;
-  background-color: #cccccc;
+  background-color: #dadada;
+  box-shadow: 0px 0px 5px silver;
   border-radius: 50vh;
 }
 .link_btn a::after {
-  content: '';
+  content: "";
   width: 5px;
   height: 5px;
   border-top: 3px solid #333333;
@@ -214,6 +216,9 @@ figure.caption figcaption {
 }
 figure.caption figcaption h2.capTitle {
   font-size: 30px;
+}
+figure.caption figcaption h2.capTitle_long {
+  font-size: 20px;
 }
 figure.caption:after {
   position: absolute;
