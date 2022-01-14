@@ -1,24 +1,32 @@
 div.main h1 {
   text-align: center;
   font-size: 40px;
-  margin-top: 5px;
+  margin: 5px 0px;
   border-bottom: #dedede solid;
 }
 
-div.main div.project {
-  position: relative;
-  width: 100%;
-  padding: calc(480 / 1440 * 100%) 0 0;
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: column;
 }
-div.main div.project iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  height: 100% !important;
+.project {
+  text-align: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
-
-div.main div.description {
+.project iframe {
+  max-width: 100%;
+}
+.project video {
+  max-width: 100%;
+}
+.description {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 45%;
   min-width: 30%;
   padding: 10px;
@@ -27,21 +35,24 @@ div.main div.description {
   border-width: 2px;
   border-radius: 0.5em;
 }
-
-div.main div.description p.sLink {
+.description p.sLink {
   margin: 10px auto;
   text-align: center;
 }
 
 /* =====On Mobile Screen===== */
 @media only screen and (max-width: 480px) {
-  div.main div.project {
-    position: relative;
-    width: 100%;
-    padding: calc(480 / 600 * 100%) 0 0;
+  .project {
+    text-align: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
 
-  div.main div.description {
+  .description {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     width: 70%;
     min-width: 50%;
     padding: 10px;
